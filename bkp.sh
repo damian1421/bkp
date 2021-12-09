@@ -163,7 +163,9 @@ else
 fi
 }
 method
-termux-vibrate
 termux-toast "Respaldo finalizado"
+termux-torch on
+termux-torch off
+termux-vibrate
 termux-wake-unlock
 exit 0
